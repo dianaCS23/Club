@@ -28,7 +28,10 @@ export default function RootLayout({
     <h1></h1>
     <hr/>
     <hr/>
-      <Aliados/>
+    <div>
+    <Aliados/>
+    </div>
+      
       <Footer1/>
 
   
