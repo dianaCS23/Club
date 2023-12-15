@@ -1,49 +1,36 @@
 
 'use client';
 
-import { Card } from 'flowbite-react';
-import Image from 'next/image';
+
 
 export default function Price() {
     const plans = [
         {
-            name: "Basic plan",
-            price: 12,
+            name: "La Prensa Gráfica - De lunes a domingo",
+            
             features: [
-                "Curabitur faucibus",
-                "massa ut pretium maximus",
-                "Sed posuere nisi",
-                "Pellentesque eu nibh et neque",
-                "Suspendisse a leo",
-                "Praesent quis venenatis ipsum",
-                "Duis non diam vel tortor",
+                "Mensual $15",
+                "Trimestral $40",
+                "Semestral $75",
+                "Anual $120",
+                "Dos años $240",
 
             ],
         },
         {
-            name: "Startup",
-            price: 35,
+            name: "La Prensa Gráfica - De lunes a viernes",
             features: [
-                "Curabitur faucibus",
-                "massa ut pretium maximus",
-                "Sed posuere nisi",
-                "Pellentesque eu nibh et neque",
-                "Suspendisse a leo",
-                "Praesent quis venenatis ipsum",
-                "Duis non diam vel tortor",
+                "Anual $95",
+                "Semestral $50",
+                
             ],
         },
         {
-            name: "Enterprise",
-            price: 60,
+            name: "La Prensa Gráfica - Fin de semana",
             features: [
-                "Curabitur faucibus",
-                "massa ut pretium maximus",
-                "Sed posuere nisi",
-                "Pellentesque eu nibh et neque",
-                "Suspendisse a leo",
-                "Praesent quis venenatis ipsum",
-                "Duis non diam vel tortor",
+                "Anual $50",
+                "Semestral $25",
+                "Trimestral $15",
             ],
         },
     ];
@@ -55,13 +42,8 @@ export default function Price() {
             <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
                 <div className='relative max-w-xl mx-auto sm:text-center'>
                     <h3 className='text-gray-800 text-3xl font-semibold sm:text-4xl'>
-                        Pricing for all sizes
+                    Precios y Planes
                     </h3>
-                    <div className='mt-3 max-w-xl'>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam efficitur consequat nunc.
-                        </p>
-                    </div>
                 </div>
                 <div className='mt-16 space-y-6 justify-center gap-6 sm:grid sm:grid-cols-2 sm:space-y-0 lg:grid-cols-3'>
                     {
@@ -71,9 +53,6 @@ export default function Price() {
                                     <span className='text-indigo-600 font-medium'>
                                         {item.name}
                                     </span>
-                                    <div className='mt-4 text-gray-800 text-3xl font-semibold'>
-                                        ${item.price} <span className="text-xl text-gray-600 font-normal">/mo</span>
-                                    </div>
                                 </div>
                                 <ul className='py-8 space-y-3'>
                                     {
@@ -96,7 +75,7 @@ export default function Price() {
                                 </ul>
                                 <div className="flex-1 flex items-end">
                                     <button className='px-3 py-3 rounded-lg w-full font-semibold text-sm duration-150 text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700'>
-                                        Get Started
+                                        SELECCIONAR PLAN
                                     </button>
                                 </div>
                             </div>

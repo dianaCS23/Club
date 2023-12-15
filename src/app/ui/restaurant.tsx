@@ -42,7 +42,7 @@ export default function Aliados() {
             
               <Card
                 className="max-w-sm"
-                renderImage={() => <Image width={500} height={500} src="/C2.jpg" alt="image 1"
+                renderImage={() => <Image width={500} height={500} src="/C5.jpg" alt="image 1"
                 />}
           
               >
@@ -65,7 +65,7 @@ export default function Aliados() {
 
               <Card
                 className="max-w-sm"
-                renderImage={() => <Image width={500} height={500} src="/C4.jpg" alt="image 1"
+                renderImage={() => <Image width={500} height={500} src="/C6.jpg" alt="image 1"
                 />}
           
               >

@@ -31,25 +31,6 @@ export default function Entretenimiento() {
 </section>
 
 
-
-
-
-
-
-
-
-
-
-
-
-    
-
-    
-  
-    
-
- 
-
   );
 }
 

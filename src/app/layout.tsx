@@ -10,6 +10,7 @@ import Aliados1 from './ui/restaurant';
 import Entertaiment from './ui/entertainment'
 import Component1 from './ui/component1'
 import Price from './ui/price'
+import Contact from './ui/contact';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -46,7 +47,7 @@ export default function RootLayout({
     <Component1/>
     <Price/>
     </div>
-      
+      <Contact/>
       <Footer1/>
 
   
