@@ -8,6 +8,7 @@ import Footer1 from './ui/footer';
 import Aliados from './ui/aliados';
 import Aliados1 from './ui/restaurant';
 import Entertaiment from './ui/entertainment'
+import Price from './ui/price'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -41,7 +42,7 @@ export default function RootLayout({
     <hr/>
     <div>
     <Aliados1/>
-    
+    <Price/>
     </div>
       
       <Footer1/>
