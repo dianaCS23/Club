@@ -11,7 +11,7 @@ export default function Footer1() {
  
         <Footer.Divider />
         <div className="w-full sm:flex sm:items-center sm:justify-between">
-          <Footer.Copyright href="#" by="Copyright. Derechos Reservados" year={2023} />
+          <Footer.Copyright href="#" by="Copyright. Derechos Reservados-DC" year={2023} />
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
             <Footer.Icon href="https://www.facebook.com/lpg.laprensagrafica" icon={BsFacebook} />
             <Footer.Icon href="https://www.instagram.com/laprensagrafica/" icon={BsInstagram} />
