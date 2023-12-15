@@ -1,17 +1,8 @@
 
 'use client';
 
-
-
 import { Card } from 'flowbite-react';
 import Image from 'next/image';
-import Aliados1 from './aliados1';
-
-
-
-
-
-
 
 
 export default function Aliados() {
@@ -37,17 +28,6 @@ export default function Aliados() {
                 <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   Urbana Pizza
                 </h5>
-                <p className="font-normal text-gray-700 dark:text-gray-400">
-                5% Pago con tarjeta de crédito o débito       
-                </p>
-          
-                <p className="font-normal text-gray-700 dark:text-gray-400">
-                15% de descuento al pagar en efectivo
-                </p>
-          
-                <p className="font-normal text-gray-700 dark:text-gray-400">
-                *No aplica con otras promociones y descuento
-                </p>
               </Card>
             
               <Card
@@ -59,17 +39,7 @@ export default function Aliados() {
                 <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   Restaurante La Pampa
                 </h5>
-                <p className="font-normal text-gray-700 dark:text-gray-400">
-                5% Pago con tarjeta de crédito o débito       
-                </p>
-          
-                <p className="font-normal text-gray-700 dark:text-gray-400">
-                15% de descuento al pagar en efectivo
-                </p>
-          
-                <p className="font-normal text-gray-700 dark:text-gray-400">
-                *No aplica con otras promociones y descuento
-                </p>
+                
               </Card>
 
 
@@ -82,21 +52,9 @@ export default function Aliados() {
                 <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   Panda Express
                 </h5>
-                <p className="font-normal text-gray-700 dark:text-gray-400">
-                5% Pago con tarjeta de crédito o débito       
-                </p>
-          
-                <p className="font-normal text-gray-700 dark:text-gray-400">
-                15% de descuento al pagar en efectivo
-                </p>
-          
-                <p className="font-normal text-gray-700 dark:text-gray-400">
-                *No aplica con otras promociones y descuento
-                </p>
+               
               </Card>
-
-             
-        
+                 
     </div>
 </section>
   

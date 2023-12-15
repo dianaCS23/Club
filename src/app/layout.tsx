@@ -6,6 +6,8 @@ import './globals.css'
 import Slider from "./ui/slider";
 import Footer1 from './ui/footer';
 import Aliados from './ui/aliados';
+import Aliados1 from './ui/restaurant';
+import Entertaiment from './ui/entertainment'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,6 +25,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>{children}
       <Slider/>
+      <Entertaiment/>
     <hr/>
     <hr/>
     <h1></h1>
@@ -30,6 +33,15 @@ export default function RootLayout({
     <hr/>
     <div>
     <Aliados/>
+    </div>
+    <hr/>
+    <hr/>
+    <h1></h1>
+    <hr/>
+    <hr/>
+    <div>
+    <Aliados1/>
+    
     </div>
       
       <Footer1/>
